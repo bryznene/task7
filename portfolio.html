@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Dark Mode Toggle -->
+        <div class="theme-toggle">
+            <button id="themeToggle" class="theme-btn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+        <!-- Header -->
+        <div class="header-card">
+            <img src="assets/me.jpg" alt="Profile" class="profile-image">
+            
+            <div class="header-info">
+                <h1>Bryzen Adriel D. Nene <span class="pronouns">He/Him</span></h1>
+                <div class="title">Frontend Developer</div>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Panabo City, Philippines
+                </div>
+                
+                <div class="social-links">
+                    <a href="mailto:nenebryzen@gmail.com" class="social-btn">
+                        <i class="fa-regular fa-envelope"></i> nenebryzen@gmail.com
+                    </a>
+                    <a href="#" class="social-btn">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="#" class="social-btn">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="#" class="social-btn">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </a>
+                    <a href="#" class="social-btn">
+                        <i class="fa-brands fa-facebook"></i> Facebook
+                    </a>
+                </div>
+            </div>
+            
+            
+            <div class="university-badge">
+                <img src="assets/UMLogo.jpg" alt="University of Mindanao Logo" class="university-logo">
+                <div class="university-name">University of Mindanao</div>
+            </div>
+        </div>
+
+        <!-- Bento Grid -->
+        <div class="bento-grid">
+            <!-- About Me -->
+            <div class="bento-card about-section">
+                <h3 class="card-title">
+                    <i class="fa-solid fa-user"></i>
+                    About Me
+                </h3>
+                <p>I'm a BS Information Technology graduate with 11 months of experience working as a front-end developer. I focus on building clean, responsive, and user-friendly interfaces using React and TypeScript, and I'm always looking for ways to improve through real project work and continuous learning.</p>
+                <p>I'm currently learning Next.js to broaden my skill set and strengthen my understanding of modern web development. This helps me build more efficient, scalable, and production-ready applications.</p>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="bento-card tech-stack">
+                <h3 class="card-title">
+                    <i class="fa-solid fa-layer-group"></i>
+                    Tech Stack
+                </h3>
+                
+                <div class="tech-category">
+                    <h4>Frontend</h4>
+                    <div class="tech-tags">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Tailwind CSS</span>
+                        <span class="tech-tag">Bootstrap</span>
+
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h4>Backend</h4>
+                    <div class="tech-tags">
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h4>Developer Tools</h4>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">GitHub</span>
+                        <span class="tech-tag">VsCode</span>                       
+                        <span class="tech-tag">Discord</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="bento-card experience-section">
+                <h3 class="card-title">
+                    <i class="fa-solid fa-briefcase"></i>
+                    Experience
+                </h3>
+                
+                <div class="job-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Junior Frontend Developer (Part-Time)</div>
+                            <div class="job-company">Aquila Softwares</div>
+                        </div>
+                        <div class="job-date">June 2025 - Present</div>
+                    </div>
+                </div>
+
+                <div class="job-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Junior Frontend Developer (Intern)</div>
+                            <div class="job-company">Aquila Softwares</div>
+                        </div>
+                        <div class="job-date">March 2025 - June 2025</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Projects -->
+            <div class="bento-card projects-section">
+                <div class="projects-header">
+                    <h3 class="card-title">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        Recent Projects
+                    </h3>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-name">BetterMomsh</div>
+                    <div class="project-description">An e-commerce website: Curated baby products for moms and infants.</div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-name">MassageEase</div>
+                    <div class="project-description">A booking mobile application for wellness massage, offering both on-site and home service.</div>
+                </div>
+            </div>
+
+            <!-- Hobbies -->
+            <div class="bento-card hobbies-section">
+                <h3 class="card-title">
+                    <i class="fa-solid fa-gamepad"></i>
+                    Hobbies
+                </h3>
+                
+                <div class="hobby-item">
+                    <h4>Tech & Learning</h4>
+                    <p>I love keeping up with the latest tech. I spend a lot of my time watching videos about computers, phones, and deep dives into software development.</p>
+                </div>
+
+                <div class="hobby-item">
+                    <h4>Sports & Gaming</h4>
+                    <p>I love playing basketball and watching the NBA. When I'm not on the court, I enjoy playing video games to unwind.</p>
+                </div>
+
+                <div class="hobby-item">
+                    <h4>Music & Movies</h4>
+                    <p>I listen to a lot of music, specifically Pop, R&B, Hip-hop, Pop-punk, and K-pop. I also like watching movies, especially superhero movies like the MCU.</p>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="bento-card certifications-section">
+                <div class="projects-header">
+                    <h3 class="card-title">
+                        <i class="fa-solid fa-certificate"></i>
+                        Recent Certifications
+                    </h3>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-name">ReactJS Workshop</div>
+                    <div class="cert-org">University of Mindanao</div>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-name">JavaScript Workshop</div>
+                    <div class="cert-org">University of Mindanao</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        const icon = themeToggle.querySelector('i');
+
+        // Check for saved theme preference
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme === 'dark') {
+            body.classList.add('dark-mode');
+            icon.classList.replace('fa-moon', 'fa-sun');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            
+            // Toggle icon
+            if (body.classList.contains('dark-mode')) {
+                icon.classList.replace('fa-moon', 'fa-sun');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                icon.classList.replace('fa-sun', 'fa-moon');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+    </script>
+</body>
+</html>
